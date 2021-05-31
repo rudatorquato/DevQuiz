@@ -1,4 +1,4 @@
-#Sun May 30 22:47:35 BRT 2021
-base.0=C\:\\Users\\Pichau\\Documents\\Projetos\\devquiz\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Mon Apr 19 19:34:27 BRT 2021
+base.0=C\:\\Users\\Pichau\\Desktop\\devquiz\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
