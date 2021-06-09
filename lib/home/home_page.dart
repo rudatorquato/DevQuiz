@@ -16,7 +16,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         appBar: AppBarWidget(),
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          //padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 6),
           child: Column(
             children: [
               Row(
@@ -36,7 +37,12 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
               ),
-              QuizCardWidget()
+              Expanded(
+                child: GridView.count(
+                  crossAxisCount: 2,
+                  children: [QuizCardWidget(), QuizCardWidget()],
+                ),
+              )
             ],
           ),
         ));
