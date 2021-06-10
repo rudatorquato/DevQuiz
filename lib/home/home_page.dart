@@ -16,10 +16,14 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         appBar: AppBarWidget(),
         body: Padding(
-          //padding: const EdgeInsets.symmetric(horizontal: 20),
-          padding: const EdgeInsets.symmetric(horizontal: 6),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          //PRO MOTOR Z3
+          //padding: const EdgeInsets.symmetric(horizontal: 6),
           child: Column(
             children: [
+              SizedBox(
+                height: 20,
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -37,10 +41,19 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 20,
+              ),
               Expanded(
                 child: GridView.count(
+                  crossAxisSpacing: 16,
+                  mainAxisSpacing: 16,
                   crossAxisCount: 2,
-                  children: [QuizCardWidget(), QuizCardWidget()],
+                  children: [
+                    QuizCardWidget(),
+                    QuizCardWidget(),
+                    QuizCardWidget()
+                  ],
                 ),
               )
             ],

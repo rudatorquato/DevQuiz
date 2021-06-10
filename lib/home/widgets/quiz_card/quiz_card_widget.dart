@@ -9,8 +9,9 @@ class QuizCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //padding: EdgeInsets.all(16),
-      padding: EdgeInsets.all(7),
+      padding: EdgeInsets.all(16),
+      //PRO MOTOR Z3
+      //padding: EdgeInsets.all(7),
       decoration: BoxDecoration(
           border: Border.fromBorderSide(BorderSide(color: AppColors.border)),
           color: AppColors.white,
